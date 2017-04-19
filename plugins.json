@@ -1,0 +1,17 @@
+[
+  {
+    "id": "request-sanitizer",
+    "name": "Request Sanitizer Component",
+    "provider": "Cominvnent",
+    "projectUrl": "https://github.com/cominvent/request-sanitizer-component",
+    "description": "A search component for Solr to sanitize request parameter input",
+    "releases": [
+      {
+        "version": "1.0.0",
+        "date": "Mar 22, 2017 9:00:35 PM",
+        "url": "https://github.com/cominvent/request-sanitizer-component/releases/download/v1.0/RequestSanitizerComponent-1.0.jar",
+        "requires": "=>6"
+      }
+    ]
+  }
+]
