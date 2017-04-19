@@ -28,5 +28,20 @@
         "requires": "=>6"
       }
     ]
+  },
+  {
+    "id": "querqy",
+    "name": "Querqy",
+    "provider": "renekrie",
+    "projectUrl": "https://github.com/renekrie/querqy",
+    "description": "Rule-based query preprocessor for Java-based search engines",
+    "releases": [
+      {
+        "version": "3.4.0",
+        "date": "2017-04-08",
+        "url": "https://dl.bintray.com/renekrie/maven/querqy/querqy-solr/3.4.0/:querqy-solr-3.4.0-jar-with-dependencies.jar",
+        "requires": "=>6"
+      }
+    ]
   }
 ]
