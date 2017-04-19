@@ -13,5 +13,20 @@
         "requires": "=>6"
       }
     ]
+  },
+  {
+    "id": "hon-lucene-synonyms",
+    "name": "Lucene/Solr Synonym-Expanding EDisMax Parser",
+    "provider": "healthonnet",
+    "projectUrl": "https://github.com/healthonnet/hon-lucene-synonyms",
+    "description": "Extension of the ExtendedDisMaxQueryParserPlugin that splits queries into a \"normal\" query and a \"synonym\" query. This enables proper query-time synonym expansion, with no reindexing required.",
+    "releases": [
+      {
+        "version": "5.0.5",
+        "date": "2016-09-14",
+        "url": "http://central.maven.org/maven2/com/github/healthonnet/hon-lucene-synonyms/5.0.5/hon-lucene-synonyms-5.0.5.jar",
+        "requires": "=>6"
+      }
+    ]
   }
 ]
