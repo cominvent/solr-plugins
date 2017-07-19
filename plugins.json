@@ -9,38 +9,24 @@
     "releases": [
       {
         "version": "1.1.0",
-        "date": "Apr 21, 2017 0:00:00 AM",
+        "date": "2017-04-21",
         "url": "https://github.com/cominvent/request-sanitizer-component/releases/download/v1.1/request-sanitizer-1.1.0.jar",
         "requires": ">=6"
       }
     ]
   },
   {
-    "id": "hon-lucene-synonyms",
-    "name": "Lucene/Solr Synonym-Expanding EDisMax Parser",
-    "provider": "healthonnet",
-    "projectUrl": "https://github.com/healthonnet/hon-lucene-synonyms",
-    "description": "Extension of the ExtendedDisMaxQueryParserPlugin that splits queries into a \"normal\" query and a \"synonym\" query. This enables proper query-time synonym expansion, with no reindexing required.",
+    "id": "mapping-processor",
+    "name": "Mapping Update Request Processor",
+    "provider": "Cominvnent AS",
+    "projectUrl": "https://github.com/cominvent/solr-mapping-processor",
+    "description": "This processor can map values of an input field to another value in the output field",
+    "license": "Apache-2.0",
     "releases": [
       {
-        "version": "5.0.5",
-        "date": "2016-09-14T00:00:00Z",
-        "url": "http://central.maven.org/maven2/com/github/healthonnet/hon-lucene-synonyms/5.0.5/hon-lucene-synonyms-5.0.5.jar",
-        "requires": ">=6.1"
-      }
-    ]
-  },
-  {
-    "id": "querqy",
-    "name": "Querqy",
-    "provider": "renekrie",
-    "projectUrl": "https://github.com/renekrie/querqy",
-    "description": "Rule-based query preprocessor for Java-based search engines",
-    "releases": [
-      {
-        "version": "3.4.0",
-        "date": "2017-04-08T00:00:00Z",
-        "url": "https://dl.bintray.com/renekrie/maven/querqy/querqy-solr/3.4.0/querqy-solr-3.4.0-jar-with-dependencies.jar",
+        "version": "1.1.0",
+        "date": "2017-07-19",
+        "url": "https://github.com/cominvent/solr-mapping-processor/releases/download/v1.1/mapping-processor-1.1.0.jar",
         "requires": ">=6"
       }
     ]
