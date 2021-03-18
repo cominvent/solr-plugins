@@ -1,16 +1,23 @@
-# Github based Solr Plugins repository
-
-Demo for a GitHub Solr plugin repository.
+# Cominvent's Solr Package repository
 
 This repo contains a single [repository.json](repository.json) file and a public key for all 
 Solr plugins from Cominvent. Each plugin will live in other git repositories, but they all
 tie in to this same repository.
 
-To add this repository to your Solr cluster, run
+## Setting up the repository
 
-    bin/solr package add-repo cominvent https://raw.githubusercontent.com/cominvent/solr-plugins/master/repository.json
+1. Start Solr with package manager enabled
 
-To list available packages, run
+       # You need to set Java property 'enable.packages=true', e.g.
+       bin/solr -c -Denable.packages=true
+
+2. Install this plugin repository into your Solr cluster
+
+       bin/solr package add-repo cominvent https://raw.githubusercontent.com/cominvent/solr-plugins/master
+
+## Installing packages
+
+To list available packages in this repository, run
 
     bin/solr package list-available
 
